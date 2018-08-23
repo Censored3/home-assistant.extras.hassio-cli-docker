@@ -2,7 +2,8 @@
 ## Setup
 ```
 echo "<HASSIO_TOKEN>" > ~/.hassio_token
-echo "alias hassio=\"docker run -it --rm --network hassio -e HASSIO_TOKEN=$(cat ~/.hassio_token) censored/censored_hassio-cli \${*}\""
+echo "alias hassio=\"docker run -it --rm --network hassio -e HASSIO_TOKEN=$(cat ~/.hassio_token) censored/hassio-cli:amd64-latest \${*}\""
+source ~/.bashrc
 ```
 
 ## Synopsis
