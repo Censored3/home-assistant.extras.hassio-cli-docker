@@ -1,5 +1,5 @@
-VERSION 1.0
 FROM homeassistant/amd64-hassio-cli
+LABEL version="1.0"
 
 COPY cli.sh /bin/cli.sh
 
